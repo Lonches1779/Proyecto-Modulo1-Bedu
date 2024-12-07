@@ -1,0 +1,114 @@
+
+#section
+{
+
+   display:flex;
+   
+    width: 1000;
+    height: 350px;
+    
+   
+
+}
+.juntos
+{
+    display: flex;
+    flex-direction: column;
+}
+#CR
+{
+
+    display: flex;
+    width: auto;
+    height: 200px;
+    flex-direction: column;
+    
+
+}
+.form-select{
+    
+    font-size: 20px;
+    height: 100px;
+    width: 100px;
+
+}
+.lugarr
+{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.textt
+{
+
+    border-radius: 5px;
+    background-color: gainsboro;
+
+}
+.color
+{
+
+  
+    background-color: chartreuse;
+    
+}
+.zona
+{
+
+    font-weight: bold;
+    font-size: 25px;
+
+}
+img
+{
+
+    width: 200px;
+    height: 200px;
+
+
+}
+.Terrenoanimacion
+{
+
+    display: flex;
+    width: auto;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+#avion
+{
+
+    width: 200px;
+    height: 200px;
+    animation-name: mov-avi;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes mov-avi
+{
+
+    0%{left: 200px; bottom: 0px;}
+    15%{left: 175px; bottom: 0px;}
+    25%{left: 150px; bottom: 0px;}
+    50%{left: 100px;bottom: 0px;}
+    75%{left: 50px; bottom: 0px;}
+    100%{left: 00px; bottom: 0px;}
+    
+}
+main
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+

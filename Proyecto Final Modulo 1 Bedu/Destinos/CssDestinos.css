@@ -1,0 +1,87 @@
+article{ background-color:gainsboro;}
+img
+{
+    
+    width: 200px;
+    height: 200px;
+
+}
+
+section{
+    
+    width: auto;
+    height: auto;
+    display: grid;
+            align-items: center;
+        justify-content: center;}
+.galeria
+{
+
+    display: grid;
+    width: 1000px;
+    height: auto;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+    grid-template-areas: 
+    "m1 m2  m3 "
+    "m4 m5 m6 "
+    "m7 m8  m9"
+    
+    ;
+    
+
+}
+
+.galeria > :nth-child(1)
+{
+grid-area: m1;
+
+}
+.galeria > :nth-child(2)
+{
+grid-area: m2;
+
+}
+.galeria > :nth-child(3)
+{
+grid-area: m3;
+
+}
+.galeria > :nth-child(4)
+{
+grid-area: m4;
+
+}
+.galeria > :nth-child(5)
+{
+grid-area: m5;
+
+}
+.galeria > :nth-child(6)
+{
+grid-area: m6;
+
+}
+.galeria > :nth-child(7)
+{
+grid-area: m7;
+
+}
+.galeria > :nth-child(8)
+{
+grid-area: m8;
+
+}
+.galeria > :nth-child(9)
+{
+grid-area: m9;
+
+}
+
+.ImagenDescripcion >img
+{
+
+    width: 300px;
+    height: 300px;
+
+}
